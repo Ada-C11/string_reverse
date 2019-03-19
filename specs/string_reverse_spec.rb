@@ -2,6 +2,8 @@ require 'minitest/autorun'
 require 'minitest/reporters'
 require_relative '../lib/string_reverse'
 
+Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
+
 describe "string reverse" do
   describe "basic tests" do
     it "reverse a string with odd number of characters" do
