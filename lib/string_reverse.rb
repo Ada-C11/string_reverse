@@ -1,6 +1,6 @@
 # A method to reverse a string in place.
-# Time complexity: ?
-# Space complexity: ?
+# Time complexity: O(n) - in this case n is the length of my_string
+# Space complexity: Constant - This would only take up the space of one string
 def string_reverse(my_string)
   return nil if my_string == nil
 
