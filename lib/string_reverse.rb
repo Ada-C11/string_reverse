@@ -2,5 +2,5 @@
 # Time complexity: ?
 # Space complexity: ?
 def string_reverse(my_string)
-  raise NotImplementedError
+  # raise NotImplementedError
 end
