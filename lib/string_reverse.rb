@@ -2,13 +2,10 @@
 # Time complexity: ?
 # Space complexity: ?
 def string_reverse(my_string)
-  if my_string == nil
-    return nil
-  end
+  return nil if my_string == nil
 
-  length = my_string.length
   i = 0
-  j = length - 1
+  j = my_string.length - 1
 
   while i < j
     character_place = my_string[j]
