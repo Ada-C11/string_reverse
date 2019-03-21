@@ -1,7 +1,7 @@
 require "pry"
 # A method to reverse a string in place.
-# Time complexity: ?
-# Space complexity: ?
+# Time complexity: O(n) where n is the length of the string passed into the string_reverse method.
+# Space complexity: Space complexity is also O(n) where n is the amount of space occupied by the characters in the string plus each of the variables.
 
 def string_reverse(my_string)
   i_start = 0
