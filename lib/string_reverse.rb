@@ -1,5 +1,5 @@
 # A method to reverse a string in place.
-# Time complexity: O(1) or constant because I'm not iterating through the entire length of the array
+# Time complexity: O(n) where n is the length of my_string
 # Space complexity: O(1) - only new memory is taken by 4 variables which is considered constant when compared to the length of string
 require "pry"
 
