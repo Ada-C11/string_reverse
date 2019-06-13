@@ -1,0 +1,18 @@
+# Reverse a string in place.
+# 'In place' means reversing the input string, rather than creating
+# a second string that is reversed.
+def reverse_string_in_place(str)
+  i = 0
+  j = str.length - 1
+  buffer = nil
+  while j > i
+    buffer = str[j]
+    str[j] = str[i]
+    str[i] = buffer
+    i += 1
+    j -= 1
+  end
+  return str
+end
+
+puts reverse_string_in_place("hello")
